@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: lightpink;
+            margin: 10%
+        }
+        p {
+            font-family: "Lucida Handwriting", cursive;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Love Letter</h1>
+    <p>Dear Honey,</p>
+
+    <p>I love you.</p>
+
+    <p>Yours,<br>L</p>
+
+    <p><img src="hearts.png" width="100px"></p>
+    <p>
+        <button onclick="change_bgcolor()">Click me to change BG color</button>
+        <button onclick="reset_bgcolor()">Click me to reset BG color</button>
+    </p>
+    <script>
+        function change_bgcolor() {
+            document.body.style.backgroundColor="violet";
+            return;
+        }
+        function reset_bgcolor() {
+            document.body.style.backgroundColor="lightpink";
+            return;
+        }
+    </script>
+</body>
+
+</html>
